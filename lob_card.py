@@ -38,3 +38,11 @@ def create_card(addressee_name, file_path, message):
         return False
     else:
         return True
+
+
+def main():
+    create_card("Ken Schiller", "/test.pdf", "Hi! This is cool!");
+
+
+if __name__ == '__main__':
+    main()
